@@ -5,14 +5,14 @@
 *{font-family: ;font-size: ;}/*루트-*/
 html{box-sizing: ;margin: ;padding: ;}/*-영역*/
 
- color: #303030;
+
 
 /*전체-배경*/
 body{
     background-image: url(./img/bg.png);
     font-family: 'Hi Melody', 맑은 고딕, arial;
     font-size: 1.8rem;
-  
+     color: #303030;
 }
 
 header{
@@ -27,11 +27,11 @@ header{
     */
 }
 header h1{
-    text-align: center;
+  
     padding: 1rem auto; 
  
 }
-
+   text-align: center;
 
 /* img, span , input : 인라인 속성->줄 바꿈이 일어나지 않는 속성 */
 /* h1~h6, p , div,article... : 블록 속성 -> 줄 바꿈이 일어난다 */
