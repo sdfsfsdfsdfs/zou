@@ -1,0 +1,91 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody:400');
+
+/*전체관리영역*/
+*{font-family: ;font-size: ;}/*루트-*/
+html{box-sizing: ;margin: ;padding: ;}/*-영역*/
+
+
+
+/*전체-배경*/
+body{
+    background-image: url(./img/bg.png);
+    font-family: 'Hi Melody', 맑은 고딕, arial;
+    font-size: 1.8rem;
+    color: #303030;
+}
+
+header{
+    width: 100%;
+    margin:  1rem auto 2.5rem auto;
+
+    /*
+    margin: 0; - 상하좌우 전부 0값
+    margin: 0 auto; - 상하는0, 좌우는 auto
+    margin: 0 auto 40px; - 상 좌우 하
+    margin: 0 auto 20px 40px; - 상 0 우 0 하 20px 왼 40px
+    */
+}
+header h1{
+    text-align: center;
+    padding: 1rem auto; 
+ 
+}
+
+
+/* img, span , input : 인라인 속성->줄 바꿈이 일어나지 않는 속성 */
+/* h1~h6, p , div,article... : 블록 속성 -> 줄 바꿈이 일어난다 */
+/*h1~h6,p:텍스트속성-> 전용 정렬모드가 따로 존재*/
+/*블록:상,하값 모두 가짐 , 인라인:상하값을 못 가짐 */
+/*블록>인라인*/
+
+header h1 .logo{
+    padding: 2rem;
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+header h1 .logo:hover{
+    padding: 2rem;
+    transform: rotate(3600deg);
+  
+   
+}
+
+header .gnb ul{
+    display: flex;
+    justify-content:space-around;
+   border-top: 1px solid #7d4141;
+   border-bottom: 1px solid #7d4141;
+   border-radius: 50px;
+   padding: 1rem 0 1rem ;
+   background-color:rgba(125, 221, 211, 0.2);
+ 
+}
+
+header li{
+    margin: 0 1.5rem;
+    font-weight: blod;
+    font-size: 2.8rem;
+    color:#866738;
+}
+
+header li a:hover{
+    margin: 0 1.5rem;
+    font-weight: blod;
+    font-size: 2.8rem;
+    color:#7e4b00;
+}
+
+
+/*바닥단*/
+
+footer{
+    background-color:#634820; /*void-공허 fuction-함수(빡스) var-변수 */ 
+    color: white;
+    text-align: center;
+    padding:0.9rem 0.5rem 0.9rem;
+
+
+}
+
