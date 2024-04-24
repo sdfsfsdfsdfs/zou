@@ -29,9 +29,9 @@ header{
 header h1{
   
     padding: 1rem auto; 
- 
+     text-align: center;
 }
-   text-align: center;
+  
 
 /* img, span , input : 인라인 속성->줄 바꿈이 일어나지 않는 속성 */
 /* h1~h6, p , div,article... : 블록 속성 -> 줄 바꿈이 일어난다 */
